@@ -36,7 +36,64 @@
 </head>
 
 <body class="font-family">
-  <header>
+  <header class="mx-5">
+    <!-- Header section-->
+    
+    <div class="container mx-auto mx">
+      <!-- Navbar section-->
+      <div
+          class="navbar bg-[#F85559] lg:bg-[#F85559] rounded-full my-5 lg:py-4 justify-between px-0 lg:px-8 flex flex-row-reverse lg:flex-row">
+          <div class="lg:hidden">
+              <div class="dropdown">
+                  <div class="dropdown dropdown-end">
+                      <label tabindex="0" class="btn btn-ghost rounded-btn">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 lg:text-white" fill="none"
+                              viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M4 6h16M4 12h8m-8 6h16" />
+                          </svg>
+                      </label>
+                      <ul tabindex="0"
+                          class="menu dropdown-content z-[1] p-2 shadow bg-[#F85559] rounded-box w-40 mt-4">
+                          <li><a>Home</a></li>
+                          <li><a>About Us</a></li>
+                          <li><a>Shop</a></li>
+                          <li><a>All Fruits</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+          <div class="hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-white font-medium">
+                  <li><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Fruits</a></li>
+              </ul>
+          </div>
+
+
+          <div class="gap-3">
+              <img src="images/logo.png" alt="">
+              <h3 class="text-4xl lg:text-white font-bold">Fruit Brust</h3>
+          </div>
+
+          <div class="hidden lg:block">
+              <button>
+                  <input type="text" placeholder="Search here" class="input input-bordered w-full rounded-full" />
+              </button>
+
+              <div class="btn btn-ghost btn-circle absolute -ml-14">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+              </div>
+          </div>
+      </div>
+
     <!-- Banner section-->
     <div class="carousel w-full">
       <!-- Slide-1 -->
@@ -155,7 +212,7 @@
 
   </main>
 
-  <footer>
+  
     <footer class="footer footer-center p-10 bg-black text-base-content rounded">
       <div class="flex">
         <div>
@@ -194,7 +251,7 @@
       </div>
 
     </footer>
-  </footer>
+  
 </body>
 
 </html>
